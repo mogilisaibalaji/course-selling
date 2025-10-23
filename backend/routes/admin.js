@@ -17,7 +17,11 @@ adminRouter.delete("course/id",(req,res)=>{
 
 });
 
-adminRouter.post("/addCourse",(req,res)=>{
+adminRouter.put("/course",(req,res)=>{
+
+});
+
+adminRouter.get("/course/bulk",(req,res)=>{
 
 });
 
